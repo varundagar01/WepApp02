@@ -1,5 +1,5 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-1:802156847542:task-definition/webapp-deploy:3",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-1:802156847542:task-definition/webapp-deploy:6",
     "containerDefinitions": [
         {
             "name": "webapp-deploy",
@@ -39,7 +39,7 @@
     "taskRoleArn": "arn:aws:iam::802156847542:role/ecsTaskExecutionRole",
     "executionRoleArn": "arn:aws:iam::802156847542:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": 3,
+    "revision": 6,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -85,10 +85,10 @@
     "cpu": "1024",
     "memory": "3072",
     "runtimePlatform": {
-        "cpuArchitecture": "X86_64",
+        "cpuArchitecture": "ARM64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2024-11-01T14:07:42.820Z",
+    "registeredAt": "2024-11-02T04:39:03.141Z",
     "registeredBy": "arn:aws:iam::802156847542:user/vdagar",
     "tags": []
 }
